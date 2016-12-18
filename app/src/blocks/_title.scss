@@ -11,4 +11,12 @@
 		line-height: 1.1em;
 		word-wrap: break-word;
 	}
+
+	&__h2 {
+		font-size: 4.8rem;
+		color: $color-bright;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 6px 0;
+	}
 }

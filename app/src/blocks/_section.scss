@@ -23,24 +23,44 @@
 		padding-bottom: 110px;
 	}
 
-	&__video-wrap {
-		position: relative;
-		width: 100%;
-		height: 100%;
-		padding-bottom: 56%;
-	}
-
-	&__video {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-	}
-
 	&__h3 {
 		margin-bottom: 10px;
 
 		@media (min-width: $screen-sm) {
 			margin-bottom: 30px;
+		}
+	}
+
+	&__banner {
+
+		@media (min-width: $screen-md) {
+			padding-left: 30px;
+			margin-left: -30px;
+		}
+	}
+
+	&__soc {
+		width: 120px;
+		height: 120px;
+		margin-top: 30px;
+
+		@media (min-width: $screen-md) {
+			height: initial;
+			width: 100%;
+			padding-bottom: 100%;
+			margin-right: 0;
+		}
+
+		&:not(:last-child) {
+			margin-right: 29px;
+		}
+	}
+
+	&__mob-center {
+		text-align: center;
+
+		@media (min-width: $screen-md) {
+			text-align: left;
 		}
 	}
 

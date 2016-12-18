@@ -1,4 +1,4 @@
-// Нужно указать размер шрифта и высоту с шириной
+// Нужно указать высоту с шириной
 .soc {
 	display: inline-block;
 	position: relative;
@@ -8,10 +8,26 @@
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-55%);
 	}
 	
 	&_vk {
 		background-color: $color-vk;
+		font-size: 7.6rem;
+
+		@media (min-width: $screen-lg) {
+			font-size: 9.6rem;
+		}
+	}
+
+	&_mail {
+		background-color: $color-brend;
+		font-weight: bold;
+		font-family: $font-third;
+		font-size: 9.6rem;
+
+		@media (min-width: $screen-lg) {
+			font-size: 12.6rem;
+		}
 	}
 }

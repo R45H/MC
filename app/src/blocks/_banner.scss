@@ -1,0 +1,81 @@
+.banner {
+	background-color: $color-dark-brend;
+	margin-bottom: 22px;
+
+	@media (min-width: $screen-lg) {
+		margin-bottom: 32px;
+	}
+
+	@media (min-width: $screen-xl) {
+		margin-bottom: 40px;
+	}
+
+	&__text {
+		padding: 10px;
+		color: $color-bright;
+		text-align: center;
+		text-transform: uppercase;
+		position: relative;
+		font-size: 1.8rem;
+
+		@media (min-width: $screen-md) {
+			font-size: 1.5rem;
+		}
+
+		@media (min-width: $screen-lg) {
+			font-size: 1.8rem;
+		}
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 0;
+			height: 0;
+			border: 22px solid $color-dark-brend;
+			border-bottom: none;
+			border-left-color: transparent;
+			border-right-color: transparent;
+			bottom: -22px;
+			left: 50%;
+			transform: translateX(-50%) scaleX(2);
+
+			@media (min-width: $screen-lg) {
+				transform: translateX(-50%) scaleX(2.9);
+				border-top-width: 32px;
+				bottom: -32px;
+			}
+
+			@media (min-width: $screen-xl) {
+				transform: translateX(-50%) scaleX(3.6);
+				border-top-width: 40px;
+				bottom: -40px;
+			}
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			width: 0;
+			height: 0;
+			border: 15px solid $color-pink;
+			border-bottom: none;
+			border-left-color: transparent;
+			border-right-color: transparent;
+			bottom: -15px;
+			left: 50%;
+			transform: translateX(-50%) scaleX(2);
+
+			@media (min-width: $screen-lg) {
+				transform: translateX(-50%) scaleX(3.2);
+				border-top-width: 24px;
+				bottom: -24px;
+			}
+
+			@media (min-width: $screen-xl) {
+				transform: translateX(-50%) scaleX(4.1);
+				border-top-width: 30px;
+				bottom: -30px;
+			}
+		}
+	}
+}

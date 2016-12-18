@@ -48,5 +48,9 @@
 		width: $header-height;
 		height: $header-height;
 		font-size: 5rem;
+
+		@media (min-width: $screen-lg) {
+			font-size: 5rem;
+		}
 	}
 }
