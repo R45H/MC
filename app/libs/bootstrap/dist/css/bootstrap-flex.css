@@ -1,3 +1,10 @@
+/*!
+ * Bootstrap v4.0.0-alpha.5 (https://getbootstrap.com)
+ * Copyright 2011-2016 The Bootstrap Authors
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v4.2.0 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -246,7 +253,7 @@ html {
 }
 
 html {
-  font-size: 16px;
+  font-size: 10px;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent;
 }
@@ -254,7 +261,7 @@ html {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.1;
   color: #373a3c;
   background-color: #fff;
 }
@@ -1757,7 +1764,7 @@ output {
 
 .modal-title {
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.1;
 }
 
 .modal-body {

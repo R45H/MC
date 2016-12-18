@@ -1,0 +1,15 @@
+.input {
+	font-size: 2.4rem;
+	font-family: $font-third;
+	border: none;
+	padding: 12px;
+	text-align: center;
+	color: $color-darkgray;
+	width: 100%;
+	transition: $duration / 2 ease all;
+
+	&:focus {
+		outline: none;
+		box-shadow: inset 0 0 6px rgba(0, 0, 0, .5);
+	}
+}

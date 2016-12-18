@@ -1,0 +1,52 @@
+.header {
+	display: none;
+
+	@media (min-width: $screen-md) {
+		display: block;
+		height: $header-height;
+		background-color: $color-dark;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		z-index: 10;
+	}
+
+	&__list {
+		padding: 0;
+		list-style-type: none;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__item {
+		display: inline-block;
+	}
+
+	&__link {
+		color: $color-bright;
+		font-size: 1.8rem;
+		text-transform: uppercase;
+		line-height: $header-height;
+		display: inline-block;
+		transition: $duration ease all;
+
+		&:hover,
+		&:focus {
+			text-decoration: none;
+			color: $color-brend;
+		}
+
+		&_soc {
+			position: relative;
+			padding-left: $header-height * 1.4;
+		}
+	}
+
+	&__soc {
+		position: absolute;
+		left: 0;
+		width: $header-height;
+		height: $header-height;
+		font-size: 5rem;
+	}
+}

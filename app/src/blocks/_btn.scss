@@ -1,0 +1,23 @@
+.btn {
+	background-color: $color-dark-brend;
+	color: $color-bright;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	width: 100%;
+	padding: 15px;
+	border: none;
+	transition: $duration / 2 ease all;
+
+	&:hover,
+	&:focus {
+		outline: none;
+		cursor: pointer;
+		background-color: $color-brend;
+	}
+
+	&:active {
+		background-color: darken($color-dark-brend, 5%);
+		box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .5);
+	}
+}

@@ -247,7 +247,7 @@ html {
 }
 
 html {
-  font-size: 16px;
+  font-size: 10px;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent;
 }
@@ -255,7 +255,7 @@ html {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.1;
   color: #373a3c;
   background-color: #fff;
 }

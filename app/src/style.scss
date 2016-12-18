@@ -1,3 +1,11 @@
-@import url('global/_variables.scss');
-@import url('global/_fonts.scss');
-@import url('global/_global.scss');
+@import url('global/_variables.scss');     // Переменные
+@import url('global/_fonts.scss');         // Шрифты
+@import url('global/_global.scss');        // Глобальные настройки
+
+@import url('blocks/_soc.scss');           // Социальные иконки
+@import url('blocks/_header.scss');        // Шапка сайта
+@import url('blocks/_section.scss');       // Секции сайта
+@import url('blocks/_title.scss');         // Заголовок секции
+@import url('blocks/_callback-main.scss'); // Главная форма обратной связи
+@import url('blocks/_btn.scss');           // Кнопка
+@import url('blocks/_input.scss');         // Поле ввода

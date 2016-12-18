@@ -1,0 +1,14 @@
+.title {
+	background-color: $color-brend;
+	text-align: center;
+
+	&__h1 {
+		color: $color-bright;
+		font-size: 6rem;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 6px 0;
+		line-height: 1.1em;
+		word-wrap: break-word;
+	}
+}
