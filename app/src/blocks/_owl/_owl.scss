@@ -1,0 +1,111 @@
+.owl {
+	padding-bottom: 50px;
+	background: linear-gradient(to top, $color-lightgray, white);
+
+	&__dots {
+		position: absolute;
+		bottom: 5px;
+		height: 40px;
+		width: 100%;
+		padding: 0 50px;
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+
+		@media (min-width: $screen-md) {
+			display: block;
+			bottom: 15px;
+			height: initial;
+		}
+	}
+
+	&__dot {
+		width: 15px;
+		height: 15px;
+		display: inline-block;
+		margin-right: 15px;
+		border: 2px solid $color-brend;
+		border-radius: 50%;
+		cursor: pointer;
+		transition: $duration / 2 ease-in all;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		&.active,
+		&:hover {
+			background-color: $color-brend;
+		}
+	}
+
+	.owl-prev,
+	.owl-next {
+		border: 15px solid $color-brend;
+		border-top-color: transparent;
+		border-bottom-color: transparent;
+		height: 0;
+		width: 0;
+		display: inline-block;
+		position: absolute;
+		transition: $duration / 2 ease-in all;
+		bottom: 10px;
+		z-index: 10;
+
+		@media (min-width: $screen-md) {
+			border-width: 40px;
+			bottom: 50%;
+			transform: translateY(50%);
+		}
+	}
+
+	.owl-prev {
+		border-right-width: 25px;
+		border-left: none;
+		left: 15px;
+
+		@media (min-width: $screen-md) {
+			border-right-width: 25px;
+			border-right-color: $color-lightgray;
+			left: -25px;
+		}
+
+		@media (min-width: $screen-xl) {
+			left: -33px;
+		}
+
+		&:hover {
+			border-right-color: $color-dark-brend;
+
+			@media (min-width: $screen-md) {
+				border-right-color: $color-gray;
+			}
+		}
+	}
+
+	.owl-next {
+		border-left-width: 25px;
+		border-right: none;
+		right: 15px;
+
+		@media (min-width: $screen-md) {
+			border-left-width: 25px;
+			border-left-color: $color-lightgray;
+			right: -25px;
+		}
+
+		@media (min-width: $screen-xl) {
+			right: -33px;
+		}
+
+		&:hover {
+			border-left-color: $color-dark-brend;
+
+			@media (min-width: $screen-md) {
+				border-left-color: $color-gray;
+			}
+		}
+	}
+}
