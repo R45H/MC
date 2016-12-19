@@ -1,0 +1,15 @@
+.form-row {
+
+	&__title {
+		font-size: 3rem;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-align: center;
+		color: $color-bright;
+		margin-bottom: 1em;
+	}
+
+	&__input {
+		margin-bottom: 15px;
+	}
+}

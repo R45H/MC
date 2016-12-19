@@ -1,47 +1,47 @@
 @font-face {
 	font-family: "CenturyGothic";
-	src: url("/fonts/CenturyGothic/CenturyGothicRegular.eot");
-	src: url("/fonts/CenturyGothic/CenturyGothicRegular.eot?#iefix")format("embedded-opentype"),
-	url("/fonts/CenturyGothic/CenturyGothicRegular.woff") format("woff"),
-	url("/fonts/CenturyGothic/CenturyGothicRegular.ttf") format("truetype");
+	src: url("../fonts/CenturyGothic/CenturyGothicRegular.eot");
+	src: url("../fonts/CenturyGothic/CenturyGothicRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/CenturyGothic/CenturyGothicRegular.woff") format("woff"),
+	url("../fonts/CenturyGothic/CenturyGothicRegular.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: "CenturyGothic";
-	src: url("/fonts/CenturyGothic/CenturyGothic-Bold.eot");
-	src: url("/fonts/CenturyGothic/CenturyGothic-Bold.eot?#iefix")format("embedded-opentype"),
-	url("/fonts/CenturyGothic/CenturyGothic-Bold.woff") format("woff"),
-	url("/fonts/CenturyGothic/CenturyGothic-Bold.ttf") format("truetype");
+	src: url("../fonts/CenturyGothic/CenturyGothic-Bold.eot");
+	src: url("../fonts/CenturyGothic/CenturyGothic-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/CenturyGothic/CenturyGothic-Bold.woff") format("woff"),
+	url("../fonts/CenturyGothic/CenturyGothic-Bold.ttf") format("truetype");
 	font-style: normal;
 	font-weight: bold;
 }
 
 @font-face {
 	font-family: "MyriadProRegular";
-	src: url("/fonts/MyriadPro/MyriadProRegular.eot");
-	src: url("/fonts/MyriadPro/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
-	url("/fonts/MyriadPro/MyriadProRegular.woff") format("woff"),
-	url("/fonts/MyriadPro/MyriadProRegular.ttf") format("truetype");
+	src: url("../fonts/MyriadPro/MyriadProRegular.eot");
+	src: url("../fonts/MyriadPro/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadPro/MyriadProRegular.woff") format("woff"),
+	url("../fonts/MyriadPro/MyriadProRegular.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: "Calibri";
-	src: url("/fonts/Calibri/calibri.eot");
-	src: url("/fonts/Calibri/calibri.eot?#iefix")format("embedded-opentype"),
-	url("/fonts/Calibri/calibri.woff") format("woff"),
-	url("/fonts/Calibri/calibri.ttf") format("truetype");
+	src: url("../fonts/Calibri/calibri.eot");
+	src: url("../fonts/Calibri/calibri.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Calibri/calibri.woff") format("woff"),
+	url("../fonts/Calibri/calibri.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: 'FontAwesome';
-	src: url('/fonts/fontawesome/fontawesome-webfont.eot?v=4.7.0');
-	src: url('/fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('/fonts/fontawesome/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('/fonts/fontawesome/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('/fonts/fontawesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+	src: url('../fonts/fontawesome/fontawesome-webfont.eot?v=4.7.0');
+	src: url('../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('..../fonts/fontawesome/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

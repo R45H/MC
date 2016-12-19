@@ -1,16 +1,21 @@
-@import url('global/_variables.scss');     // Переменные
-@import url('global/_fonts.scss');         // Шрифты
-@import url('global/_global.scss');        // Глобальные настройки
+@import url('global/_variables.scss'); // Переменные
+@import url('global/_fonts.scss');     // Шрифты
+@import url('global/_global.scss');    // Глобальные настройки
 
-@import url('blocks/_soc.scss');           // Социальные иконки
-@import url('blocks/_header.scss');        // Шапка сайта
-@import url('blocks/_section.scss');       // Секции сайта
-@import url('blocks/_title.scss');         // Заголовок секции
-@import url('blocks/_callback-main.scss'); // Главная форма обратной связи
-@import url('blocks/_btn.scss');           // Кнопка
-@import url('blocks/_input.scss');         // Поле ввода
-@import url('blocks/_h3.scss');            // Заголовок третьего уровня
-@import url('blocks/_adv.scss');           // Блок "Вот что ты узнаешь"
-@import url('blocks/_video.scss');         // Видео
-@import url('blocks/_banner.scss');        // Плашка со стрелочкой
-@import url('blocks/_owl/_owl.scss');      // Слайдер
+@import url('blocks/_soc.scss');       // Социальные иконки
+@import url('blocks/_header.scss');    // Шапка сайта
+@import url('blocks/_section.scss');   // Секции сайта
+@import url('blocks/_title.scss');     // Заголовок секции
+@import url('blocks/_form-main.scss'); // Главная форма обратной связи
+@import url('blocks/_form-wide.scss'); // Длинная форма обратной связи
+@import url('blocks/_form-row.scss');  // Однострочкая форма обратной связи
+@import url('blocks/_btn.scss');       // Кнопка
+@import url('blocks/_input.scss');     // Поле ввода
+@import url('blocks/_h3.scss');        // Заголовок третьего уровня
+@import url('blocks/_adv.scss');       // Блок "Вот что ты узнаешь"
+@import url('blocks/_video.scss');     // Видео
+@import url('blocks/_banner.scss');    // Плашка со стрелочкой
+@import url('blocks/_owl/_owl.scss');  // Слайдер
+@import url('blocks/_callback.scss');  // Видео-отзыв
+@import url('blocks/_comment.scss');   // Текстовый отзыв
+@import url('blocks/_footer.scss');    // Подвал сайта
