@@ -17,13 +17,21 @@
 
 	&__form {
 
-		@media (min-width: $screen-sm) {
+		@media (min-width: $screen-lg) {
 			padding: 0 30px;
 		}
 	}
 
 	&__input {
 		margin-bottom: 10px;
+
+		@media (min-width: $screen-md) {
+			margin-bottom: 15px;
+		}
+
+		@media (min-width: $screen-lg) {
+			margin-bottom: 10px;
+		}
 	}
 
 	&__btn {

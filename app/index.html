@@ -30,8 +30,14 @@
 				<div class="form-main">
 					<p class="form-main__title">Получи более 15 обучающих видео из закрытого видео-раздела проекта, АБСОЛЮТНО БЕСПЛАТНО!</p>
 					<form class="form-main__form">
-						<input type="text" class="input form-main__input" placeholder="ВВЕДИ СВОЙ E-MAIL" required>
-						<input type="text" class="input form-main__input" placeholder="ВВЕДИ СВОЁ ИМЯ" required>
+						<div class="row">
+							<div class="col-sm-12 col-md-6 col-lg-12">
+								<input type="text" class="input form-main__input" placeholder="ВВЕДИ СВОЙ E-MAIL" required>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-12">
+								<input type="text" class="input form-main__input" placeholder="ВВЕДИ СВОЁ ИМЯ" required>
+							</div>
+						</div>
 						<input type="submit" class="btn form-main__btn" value="Получить доступ!">
 						<p class="form-main__title form-main__title_upper">Проверь почту сразу после нажатия на кнопку!</p>
 					</form>
@@ -117,7 +123,7 @@
 </section>
 
 <!-- SECTION 3 -->
-<section class="section">
+<section class="section section_anchor" id="history">
 	<div class="title section__title">
 		<h2 class="title__h2">Моя история</h2>
 	</div>
@@ -130,10 +136,10 @@
 				<div class="banner section__banner">
 					<div class="banner__text">Если у тебя возникли вопросы, напиши мне</div>
 				</div>
-				<a class="soc soc_vk section__soc" href="#">
+				<a class="soc soc_vk section__soc" href="https://vk.com/artur_vozniak" target="_blank">
 					<i class="fa fa-vk soc__item"></i>
 				</a>
-				<a class="soc soc_mail section__soc" href="#">
+				<a class="soc soc_mail section__soc" href="mailto:artur.vozniak@mail.ru">
 					<span class="soc__item">@</span>
 				</a>
 			</div>
@@ -142,7 +148,7 @@
 </section>
 
 <!-- SECTION 4 -->
-<section class="section">
+<section class="section section_anchor" id="video">
 	<div class="container">
 		<div class="title section__title">
 			<h2 class="title__h2">Видео реальных знакомств</h2>
@@ -193,7 +199,7 @@
 </section>
 
 <!-- SECTION 6 -->
-<section class="section">
+<section class="section section_anchor" id="callback">
 	<div class="container">
 		<div class="title section__title">
 			<h2 class="title__h2">Отзывы парней</h2>
@@ -357,6 +363,10 @@
 </section>
 
 @@include('partials/footer.html')
+
+<!-- END OF VISIBLE CONTENT -->
+
+<i class="fa fa-arrow-circle-up up" aria-hidden="true"></i>
 
 </body>
 </html>

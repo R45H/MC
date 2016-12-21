@@ -79,4 +79,16 @@
 		background-color: $color-gray;
 		padding: 15px;
 	}
+
+	&_anchor {
+		margin-top: -($header-height);
+		padding-top: $header-height;
+
+		.section {
+
+			&__title {
+				margin-top: 0;
+			}
+		}
+	}
 }
