@@ -3,6 +3,7 @@ var delay = 700; // Задержка прокрутки
 
 $(function() {
 	$(window).scroll(function() {
+		if (window.innerWidth < '776') return;
 		if ($(this).scrollTop() > top_show) $('.up').fadeIn();
 		else $('.up').fadeOut();
 	});

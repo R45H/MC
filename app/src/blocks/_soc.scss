@@ -3,6 +3,11 @@
 	display: inline-block;
 	position: relative;
 
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+
 	&__item {
 		color: $color-bright;
 		position: absolute;

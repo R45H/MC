@@ -15,12 +15,18 @@
 	}
 
 	&__subtitle {
-		font-size: 3rem;
+		font-size: 2.2rem;
 		color: $color-bright;
 		text-transform: uppercase;
 		text-align: center;
-		filter: drop-shadow(0 0 50px black);
+		text-shadow: 1px 1px 1px black;
 		margin-bottom: 30px;
+		line-height: 1.3em;
+
+		@media (min-width: $screen-sm) {
+			font-size: 3rem;
+			line-height: 1.1em;
+		}
 
 		@media (min-width: $screen-xl) {
 			font-size: 3.5rem;

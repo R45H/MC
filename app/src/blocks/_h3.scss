@@ -1,8 +1,12 @@
 .h3 {
 	color: $color-brend;
-	font-size: 3.3rem;
+	font-size: 3rem;
 	font-weight: bold;
 	text-align: center;
+
+	@media (min-width: $screen-sm) {
+		font-size: 3.3rem;
+	}
 
 	@media (min-width: $screen-xl) {
 		font-size: 4rem;
