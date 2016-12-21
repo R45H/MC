@@ -54,7 +54,7 @@
 		bottom: 10px;
 		z-index: 10;
 
-		@media (min-width: $screen-md) {
+		@media (min-width: $screen-sm) {
 			border-width: 40px;
 			bottom: 50%;
 			transform: translateY(50%);
@@ -66,13 +66,9 @@
 		border-left: none;
 		left: 15px;
 
-		@media (min-width: $screen-md) {
+		@media (min-width: $screen-sm) {
 			border-right-width: 25px;
 			border-right-color: $color-lightgray;
-			left: -25px;
-		}
-
-		@media (min-width: $screen-xl) {
 			left: -33px;
 		}
 
@@ -90,13 +86,9 @@
 		border-right: none;
 		right: 15px;
 
-		@media (min-width: $screen-md) {
+		@media (min-width: $screen-sm) {
 			border-left-width: 25px;
 			border-left-color: $color-lightgray;
-			right: -25px;
-		}
-
-		@media (min-width: $screen-xl) {
 			right: -33px;
 		}
 

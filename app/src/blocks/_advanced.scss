@@ -26,18 +26,26 @@
 		margin: 20px 0 10px;
 
 		@media (min-width: $screen-sm) {
+			margin: 25px .5em 25px 0;
+		}
+
+		@media (min-width: $screen-xl) {
 			margin: 40px .5em 40px 0;
 		}
 	}
 
 	&__text {
-		font-size: 2.4rem;
+		font-size: 2rem;
 		text-align: justify;
 		margin: 0;
 
 		@media (min-width: $screen-sm) {
 			display: table-cell;
 			vertical-align: middle;
+		}
+
+		@media (min-width: $screen-xl) {
+			font-size: 2.4rem;
 		}
 	}
 }

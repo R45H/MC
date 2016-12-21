@@ -1,12 +1,16 @@
 .form-row {
 
 	&__title {
-		font-size: 3rem;
+		font-size: 2.5rem;
 		text-transform: uppercase;
 		font-weight: bold;
 		text-align: center;
 		color: $color-bright;
 		margin-bottom: 1em;
+
+		@media (min-width: $screen-xl) {
+			font-size: 3rem;
+		}
 	}
 
 	&__input {

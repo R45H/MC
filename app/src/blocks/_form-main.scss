@@ -1,6 +1,6 @@
 .form-main {
 	background-color: rgba(198, 198, 198, .8);
-	padding: 15px 30px;
+	padding: 10px 30px;
 	text-align: center;
 	height: 100%;
 
@@ -8,7 +8,11 @@
 		font-size: 1.8rem;
 		color: $color-dark-brend;
 		font-weight: bold;
-		margin: 0 0 10px;
+		margin: 0 0 5px;
+
+		@media (min-width: $screen-xl) {
+			margin: 0 0 10px;
+		}
 
 		&_upper {
 			text-transform: uppercase;
@@ -40,7 +44,11 @@
 
 	&__subtitle {
 		margin: 0;
-		font-size: 1.7rem;
+		font-size: 1.5rem;
 		color: $color-dark;
+
+		@media (min-width: $screen-xl) {
+			font-size: 1.7rem;
+		}
 	}
 }

@@ -10,10 +10,14 @@
 	}
 
 	&__copyright {
-		font-size: 2.4rem;
+		font-size: 2rem;
 		color: $color-bright;
 		padding: 1.4585em 0;
 		margin: 0;
 		text-align: center;
+
+		@media (min-width: $screen-xl) {
+			font-size: 2.4rem;
+		}
 	}
 }

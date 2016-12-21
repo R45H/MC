@@ -3,12 +3,16 @@
 
 	@media (min-width: $screen-md) {
 		display: block;
-		height: $header-height;
+		height: $header-height-lg;
 		background-color: $color-dark;
 		position: fixed;
 		width: 100%;
 		top: 0;
 		z-index: 10;
+
+		@media (min-width: $screen-xl) {
+			height: $header-height;
+		}
 	}
 
 	&__list {
@@ -24,11 +28,16 @@
 
 	&__link {
 		color: $color-bright;
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		text-transform: uppercase;
-		line-height: $header-height;
+		line-height: $header-height-lg;
 		display: inline-block;
 		transition: $duration ease all;
+
+		@media (min-width: $screen-xl) {
+			font-size: 1.8rem;
+			line-height: $header-height;
+		}
 
 		&:hover,
 		&:focus {
@@ -38,18 +47,27 @@
 
 		&_soc {
 			position: relative;
-			padding-left: $header-height * 1.4;
+			padding-left: $header-height-lg * 1.4;
+
+			@media (min-width: $screen-xl) {
+				padding-left: $header-height * 1.4;
+			}
 		}
 	}
 
 	&__soc {
 		position: absolute;
 		left: 0;
-		width: $header-height;
-		height: $header-height;
-		font-size: 5rem;
+		width: $header-height-lg;
+		height: $header-height-lg;
 
 		@media (min-width: $screen-lg) {
+			font-size: 4rem;
+		}
+
+		@media (min-width: $screen-xl) {
+			width: $header-height;
+			height: $header-height;
 			font-size: 5rem;
 		}
 	}

@@ -1,5 +1,5 @@
 .input {
-	font-size: 2.4rem;
+	font-size: 2.1rem;
 	font-family: $font-third;
 	border: none;
 	padding: 12px;
@@ -7,6 +7,10 @@
 	color: $color-darkgray;
 	width: 100%;
 	transition: $duration / 2 ease all;
+
+	@media (min-width: $screen-xl) {
+		font-size: 2.4rem;
+	}
 
 	&:focus {
 		outline: none;
