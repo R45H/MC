@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	@@include('partials/head.html')
+	<title>Закрытый аудио-раздел проекта "Мужской выбор"</title>
+</head>
+<body>
+
+<div class="content">
+
+	<section class="section section_bottom">
+
+		<div class="container">
+			<p class="h4 section__h4"><span class="section__red">Закрытый</span> Аудио-Раздел<br>Проекта "Мужской выбор"</p>
+		</div>
+
+		<!-- Верхний заголовок -->
+		<div class="container">
+			<p class="h3 section__h3">Верхний заголовок</p>
+		</div>
+		<!-- ================= -->
+
+		<!-- Главный заголовок -->
+		<div class="title section__title">
+			<div class="container">
+				<h1 class="title__h3">Главный заголовок</h1>
+			</div>
+		</div>
+		<!-- ================= -->
+
+		<div class="container">
+
+			<!-- Общий контейнер для списка и аудио. Можно дублировать, если хочется несколько аудио со списком для каждого -->
+			<div class="row flex-items-md-center section__top">
+
+				<!-- Список с описанием. Можно удалить или добавить больше элементов списка -->
+				<div class="col-md-12">
+					<p class="section__p">Какой-то текст в заголовке:</p>
+					<ul class="list">
+						<li class="list__item">Какой-то текст в элементе списка</li>
+						<li class="list__item">Какой-то текст в элементе списка</li>
+						<li class="list__item">Какой-то текст в элементе списка</li>
+						<li class="list__item">Какой-то текст в элементе списка</li>
+						<li class="list__item">Какой-то текст в элементе списка</li>
+						<li class="list__item">Какой-то текст в элементе списка</li>
+					</ul>
+				</div>
+				<!-- ====================================================================== -->
+
+				<div class="col-md-9 col-lg-7 col-xl-6 section__full">
+
+					<!-- Аудио. Можно дублировать -->
+					<audio class="audio audio_top">
+						<source src="/audio/konsult.mp3" type="audio/mpeg">
+					</audio>
+					<!-- ======================== -->
+
+				</div>
+			</div>
+			<!-- ========================================================================================================== -->
+
+			<div class="row">
+				<div class="col-md-12">
+					<p class="section__descr">Если аудио не воспроизводится, обязательно напиши мне на мой E-mail - <a href="mailto:artur.vozniak@mail.ru">artur.vozniak@mail.ru</a> или напиши в "<a href="https://vk.com/artur_vozniak">ВКонтакте</a>"<br>(В теме письма укажи "проблемы с аудио")</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</div>
+
+@@include('partials/footer.html')
+
+<!-- END OF VISIBLE CONTENT -->
+
+@@include('partials/metrika.html')
+
+</body>
+</html>

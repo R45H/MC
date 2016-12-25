@@ -1,5 +1,6 @@
 html {
 	font-size: 8px;
+	height: 100%;
 
 	@media (min-width: $screen-lg) {
 		font-size: 9px;
@@ -13,6 +14,9 @@ html {
 body {
 	font-family: $font-main;
 	font-size: 2.4rem;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
 
 .row {

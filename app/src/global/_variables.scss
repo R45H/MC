@@ -22,3 +22,13 @@ $duration: .5s;
 
 $header-height-lg: 60px;
 $header-height: 80px;
+
+%mobile-full {
+	padding-left: 0;
+	padding-right: 0;
+
+	@media (min-width: $screen-sm) {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

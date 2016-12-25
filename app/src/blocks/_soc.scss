@@ -2,6 +2,7 @@
 .soc {
 	display: inline-block;
 	position: relative;
+	overflow: hidden;
 
 	&:hover,
 	&:focus {

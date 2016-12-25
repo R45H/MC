@@ -1,0 +1,20 @@
+.list {
+	padding: 0;
+	margin: 0;
+
+	&__item {
+		font-size: 1.9rem;
+		line-height: 1.2em;
+		list-style-type: none;
+		position: relative;
+		padding: 0 0 7px 40px;
+
+		&::before {
+			position: absolute;
+			content: '\2713';
+			left: 15px;
+			color: green;
+			font-size: 1.3em;
+		}
+	}
+}

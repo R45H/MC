@@ -2,12 +2,18 @@ var top_show = 2500; // В каком положении полосы прокр
 var delay = 700; // Задержка прокрутки
 
 $(function() {
-	$(window).scroll(function() {
-		if (window.innerWidth < '776') return;
-		if ($(this).scrollTop() > top_show) $('.up').fadeIn();
-		else $('.up').fadeOut();
+	var $up = $('.up'); // Кнопка прокрутки
+
+	$(window).on('scroll resize', function() {
+		if (window.innerWidth < '776') {
+			$up.fadeOut();
+			return;
+		}
+		if ($(this).scrollTop() > top_show) $up.fadeIn();
+		else $up.fadeOut();
 	});
-	$('.up').click(function() {
+
+	$up.on('click', function() {
 		$('body, html').animate({
 			scrollTop: 0
 		}, delay);

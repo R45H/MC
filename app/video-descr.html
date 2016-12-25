@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	@@include('partials/head.html')
+	<title>Закрытый видео-раздел проекта "Мужской выбор"</title>
+</head>
+<body>
+
+<div class="content">
+
+	<section class="section section_bottom">
+
+		<div class="container">
+			<p class="h4 section__h4"><span class="section__red">Закрытый</span> Видео-Раздел<br>Проекта "Мужской выбор"</p>
+		</div>
+
+		<!-- Верхний заголовок -->
+		<div class="container">
+			<p class="h3 section__h3">Верхний заголовок</p>
+		</div>
+		<!-- ================= -->
+
+		<!-- Главный заголовок -->
+		<div class="title section__title">
+			<div class="container">
+				<h1 class="title__h3">Главный заголовок</h1>
+			</div>
+		</div>
+		<!-- ================= -->
+
+		<div class="container">
+
+			<!-- Общий контейнер для списка и видео. Можно дублировать, если хочется несколько видео со списком для каждого -->
+			<div class="row flex-items-md-center section__top">
+
+				<!-- Список с описанием. Можно добавлять / удалять элементы списка, либо вообще удалить -->
+				<div class="col-md-12">
+					<p class="section__p">Какой-то текст в заголовке:</p>
+					<ul class="list">
+						<li class="list__item">Какой-то текст в элементе списка</li>
+						<li class="list__item">Какой-то текст в элементе списка</li>
+						<li class="list__item">Какой-то текст в элементе списка</li>
+						<li class="list__item">Какой-то текст в элементе списка</li>
+						<li class="list__item">Какой-то текст в элементе списка</li>
+					</ul>
+				</div>
+				<!-- ================================================================================== -->
+
+				<!-- Видео. Можно дублировать -->
+				<div class="col-md-9 col-lg-7 col-xl-6 section__full section__top">
+					<video class="video-inner">
+						<source src ="/video/preview.mp4" type = 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+					</video>
+				</div>
+				<!-- ======================== -->
+
+			</div>
+			<!-- ========================================================================================================== -->
+
+			<div class="row">
+				<div class="col-md-12">
+					<p class="section__descr">Если у тебя возникли проблемы с видео, обязательно напиши мне на мой E-mail - <a href="mailto:artur.vozniak@mail.ru">artur.vozniak@mail.ru</a> или напиши в "<a href="https://vk.com/artur_vozniak">ВКонтакте</a>"<br>(В теме письма укажи "проблемы с видео")</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</div>
+
+@@include('partials/footer.html')
+
+<!-- END OF VISIBLE CONTENT -->
+
+@@include('partials/metrika.html')
+
+</body>
+</html>

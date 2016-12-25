@@ -1,13 +1,6 @@
 .footer {
-
-	&__top {
-		background-color: $color-darkgray;
-		padding: 1.5em 0;
-	}
-
-	&__bottom {
-		background-color: $color-gray;
-	}
+	background-color: $color-gray;
+	flex: 0 0 auto;
 
 	&__copyright {
 		font-size: 2rem;

@@ -24,6 +24,11 @@
 
 	&__item {
 		display: inline-block;
+		transition: $duration ease all;
+
+		&_active {
+			background-color: lighten($color-dark, 7%);
+		}
 	}
 
 	&__link {
@@ -32,6 +37,7 @@
 		text-transform: uppercase;
 		line-height: $header-height-lg;
 		display: inline-block;
+		padding: 0 15px;
 		transition: $duration ease all;
 
 		@media (min-width: $screen-xl) {
@@ -52,7 +58,23 @@
 			@media (min-width: $screen-xl) {
 				padding-left: $header-height * 1.4;
 			}
+
+			&:hover,
+			&:focus {
+				color: $color-bright;
+
+				.header {
+
+					&__link-text {
+						color: $color-brend;
+					}
+				}
+			}
 		}
+	}
+
+	&__link-text {
+		transition: $duration ease all;
 	}
 
 	&__soc {
