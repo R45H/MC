@@ -1,16 +1,44 @@
 .footer {
 	background-color: $color-gray;
 	flex: 0 0 auto;
+	text-align: center;
 
 	&__copyright {
 		font-size: 2rem;
 		color: $color-bright;
 		padding: 1.4585em 0;
 		margin: 0;
-		text-align: center;
 
 		@media (min-width: $screen-xl) {
 			font-size: 2.4rem;
+		}
+	}
+
+	&__license {
+		display: inline-block;
+		font-size: 1.4rem;
+		margin: .5em 0 1.4585em 0;
+		color: $color-bright;
+		text-decoration: underline;
+
+		@media (min-width: $screen-xl) {
+			font-size: 1.6rem;
+		}
+
+		&:hover,
+		&:focus {
+			color: $color-bright;
+			text-decoration: none;
+		}
+	}
+
+	&_license {
+
+		.footer {
+
+			&__copyright {
+				padding-bottom: .3em;
+			}
 		}
 	}
 }

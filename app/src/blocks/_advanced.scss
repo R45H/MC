@@ -48,4 +48,34 @@
 			font-size: 2.4rem;
 		}
 	}
+
+	&_sm {
+
+		.advanced {
+
+			&__num-wrap {
+				font-size: 2.8rem;
+			}
+
+			&__num {
+				background-color: $color-dark;
+				margin: 20px 0 10px;
+
+				@media (min-width: $screen-sm) {
+					margin: 25px 1em 25px 0;
+				}
+
+				@media (min-width: $screen-xl) {
+					margin: 40px 1em 40px 0;
+				}
+			}
+
+			&__text {
+				font-size: 1.8rem;
+				line-height: 1.4em;
+				padding-bottom: 10px;
+			}
+		}
+
+	}
 }
